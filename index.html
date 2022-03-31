@@ -6,7 +6,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>SailChimp HTML Email Template</title>
 <style type="text/css">
-@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;500;600&family=Open+Sans:wght@300;400;600&family=Sora:wght@100&family=Urbanist:wght@600&display=swap');
+	* {
+		box-sizing: border-box;
+	}
+
 	body {
 		margin: 0;
 		padding: 0;
@@ -24,12 +28,11 @@
 		width: 100%;
 		table-layout: fixed;
 		background-color: #998f89;
-		padding-bottom: 60px;
 	}
 
 	.main {
 		width: 100%;
-		width: 600px;
+		width: 900px;
 		background-color: #F2ECE8;
 		font-family: 'Darker Grotesque', sans-serif;
 		color: #4a4a4a;
@@ -57,13 +60,44 @@
 	}
 	.two-columns .column {
 		width: 100%;
-		max-width: 450px;
+		max-width: 400px;
 		display: inline-block;
 		vertical-align: top;
 	}
 
 	#banner {
 		color: white;
+	}
+
+	.text {
+		font-size: 15px;
+	}
+
+	.button {
+		width: 50px;
+		height: 40px;
+	}
+
+	.footerText {
+		font-size: 12px;
+		font-weight: 600;
+	}
+
+	.three-columns {
+	text-align: start;
+	padding-bottom: 0 !important;
+	}
+
+	.three-columns h5 {
+		margin: 0;
+		font-weight: bold;
+		color: #B07A5F;
+	}
+	.three-columns .column {
+		width: 100%;
+		max-width: 290px;
+		display: inline-block;
+		vertical-align: top;
 	}
 
 </style>
@@ -78,13 +112,13 @@
 		
 <tr>
 	<td height="2" style="background-color: white;">
-		<img style="width: 70px; height: 60px; float: right;" src="nut.png" alt="">
+		<img class="button" style=" float: right;" src="nut.png" alt="">
 	</td>
 </tr>
 			
 <!-- TITLE, TEXT & BUTTON -->
 	<tr>
-		<td style="padding: 20px 5px 50px;">
+		<td style="padding: 20px 5px 40px;">
 			<table width="100%";>
 
 				<tr>
@@ -93,8 +127,8 @@
 						<h1>Pocket Dimension</h1>
 						<p class="intro">YOUR FIRST STEP INTO</p>
 						<p class="intro">THE NEXT GENERATION SOCIAL METAVERSE</p>
-						<img style="width: 512px; height: 288px; display: block; margin: 0 194px;" src="TAUPHITHUYENCUT.png" alt="">
-						<img style="width: 70px; height: 60px; margin: 0 415px;" src="nut.png" alt="">
+						<img class="island" style="margin-top: 35px !important; margin-bottom: 55px !important; width: 230px; display: block; margin: 0 auto;" src="TAUPHITHUYENCUT1.png" alt="">
+						<img class="button"style="display: block; margin: 0 auto;" src="nut.png" alt="">
 					</td>
 				</tr>
 
@@ -111,13 +145,13 @@
 						<td style="padding-bottom: 50px;" class="two-columns">
 							<table class="column">
 								<tr>
-									<td style="padding-left:30px;">
+									<td style="width: 410px; padding-left:30px;">
 										<h2>Dear Valued Partner,</h2>
-										<p>Thank you for taking part in this legendary journey with us to the 
+										<p class="text">Thank you for taking part in this legendary journey with us to the 
 											future of endless possibilities in the metaverse era, starting with 
 											Pocket Dimension - House of Kibaa’s initial land offering!
 										</p><br>
-										<p>
+										<p class="text">
 											House of Kibaa is the leading studio of Looking Glass Labs Ltd., 
 											a publicly listed Canada-based leading Web3 platform digital 
 											agency for the metaverse, playing as the innovation hub for all 
@@ -131,7 +165,7 @@
 							<table class="column">
 								<tr>
 									<td>
-										<img style="width: 450px; height: 360px; padding-left: 6px; padding-top: 32px;" src="zen.jpg" alt="">
+										<img style="width: 450px; height: 253px; margin-left: 47px; margin-top: 20px;" src="Archipelago.jpg" alt="">
 									</td>
 								</tr>
 							</table>
@@ -142,16 +176,119 @@
 		</tr>
 <!-- BANNER -->
 <tr>
-	<td id="banner" style="height: 350px; background: url(zen.jpg) #B5CFE3; background-size:cover; background-position:center;">
+	<td id="banner" style="height: 350px; background: url(Dale2.png) #B5CFE3; background-size:cover; background-position:center;">
 		<h1>Claim the first lands</h1>
-		<p style="padding: 0 150px;">At House of Kibaa, we understand the importance and value partnerships as a vital part of our growth. With that being said, your organization venture is offered with our exclusive, partner-only Reserve Program in which you can reserve lands in advance, which will be directly 
+		<p style="padding: 0 200px;">At House of Kibaa, we understand the importance and value partnerships as a vital part of our growth. With that being said, your organization venture is offered with our exclusive, partner-only Reserve Program in which you can reserve lands in advance, which will be directly 
 			ari-dropped to your designated wallet address after the public sale program concludes</p>
-		<a href="#"><img style="width: 250px; height: 100px;" src="text.png" alt=""></a>
+		<a href="https://partners.houseofkibaa.com/3ERPow"><img style="width: 100px; margin-top: 30px;" src="SIGN UP.png" alt=""></a>
 	</td>
 </tr>
 <!-- TWO COLUMN SECTION -->
 			
-<!-- FOOTER SECTION -->
+<!-- Text -->
+
+<tr>
+	<td style="padding: 20px 5px 50px;">
+		<table width="100%";>
+
+			<tr>
+				<td>
+					<p>Find out more about</p>
+					<h1>Partners' Reserve Program</h1>
+					<img class="island" style="width: 150px; display:block; margin: 30px auto 20px;  auto;" src="TAUPHITHUYENCUT1.png" alt="">
+					<a href="https://partners.houseofkibaa.com/3ERPow"><img class="button" style="width: 220px;" src="PARTNERSHIP.png" alt=""></a>
+				</td>
+			</tr>
+
+		</table>
+	</td>
+</tr>	
+
+<!-- Footer -->
+
+<tr>
+	<td>
+		<table width="100%">
+			<tr>
+				<td style="padding-bottom: 50px;" class="two-columns">
+					<table class="column">
+						<tr>
+							<td style="padding-left: 50px;">
+								<img style="width: 250px;" src="pocket.png" alt="">
+								<div style="padding-left: 50px;">
+									<h3 style="margin-top: 0;">About House of Kibaa</h3>
+									<p class="footerText">House of Kibaa (HoK) is a Web3 studio at the forefront of technologies in the
+										blockchain, NFT and meta-verse sectors. HoK is designing a hyper-realistic
+										metaverse for 3D assets, allowing functional art and collectibles to exist simultaneously across unique NFT blockchain environments.
+									</p>
+									<h3>About Looking Glass Labs</h3>
+									<p class="footerText">Looking Glass Labs is a leading Web3 platform specializing in NFT architecture,
+										immersive metaverse environments, play-to-earn tokenization, and virtual asset
+										<br>royalty streams.
+									</p>							
+								</div>
+							</td>
+						</tr>
+
+					</table>
+					<table style="padding-top: 30px; padding-left:200px; text-align: end;" width="100%" class="column">
+						<tr>
+							<td>
+									<p>Find out more</p>
+									<h1>About us</h1>
+									<img style="width: 120px; margin: 20px;" src="TAUPHITHUYENCUT1.png" alt="">
+									<h3 style="width: 200px;">Follow our Official channels</h3>
+									<a class="footerText" href="">https://twitter.com/HouseofKibaa</a><br> 
+									<a class="footerText" href="">https://t.me/houseofKibaa</a><br> 
+									<a class="footerText" href="">https://discord.gg/houseofKibaa</a> 
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+<!-- Border -->
+<tr>
+	<td>
+		<img src="line.png" alt="">
+	</td>
+</tr>
+
+<!-- Footer -->
+<tr>
+	<td>
+		<table width="100%">
+			<tr>
+				<td style="padding-bottom: 50px;" class="three-columns">
+					<table class="column">
+						<tr>
+							<td style="padding-left:45px;">
+								<h5 style="width: 300px;">© 2022 POCKET DIMENSIONS. ALL RIGHTS RESERVED.</h5>
+							</td>
+						</tr>
+
+					</table>
+					<table style="padding-left:200px;" class="column">
+						<tr>
+							<td>
+								<h5>PRIVACY POLICY ></h5>
+							</td>
+						</tr>
+					</table>
+					<table style="padding-left: 140px;" class="column">
+						<tr>
+							<td>
+								<h5>TERMS & CONDITIONS ></h5>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
 			
 
 		</table> <!-- End Main Class -->
